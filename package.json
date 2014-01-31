@@ -1,0 +1,26 @@
+{
+  "name": "winston-cube",
+  "description": "Cube transport for winston",
+  "version": "0.0.1",
+  "author": {
+    "name": "Lei Pan",
+    "url": "https://github.com/superpan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/superpan/winston-cube.git"
+  },
+  "keywords": [
+    "logging", "sysadmin", "tools", "winston", "cube", "cubism", "analytics"
+  ],
+  "dependencies": {
+    "websocket": "~1.0.8"
+  },
+  "devDependencies": {
+    "winston": "~0.7.0"
+  },
+  "main": "./lib/winston-cube",
+  "scripts": { 
+    "test": "grunt test" 
+  }
+}
